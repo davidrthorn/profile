@@ -8,8 +8,8 @@
   "license": "ISC",
   "scripts": {
     "clean": "rm dist/bundle.js",
-    "start": "NODE_ENV=development parcel src/index.html",
-    "build-prod": "NODE_ENV=production parcel build src/index.html"
+    "start": "ENV=development parcel src/index.html",
+    "build-prod": "ENV=production parcel build src/index.html"
   },
   "dependencies": {
     "prop-types": "^15.7.2",
@@ -22,17 +22,14 @@
     "@babel/preset-react": "^7.9.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.1",
     "eslint-config-standard": "^14.1.1",
     "eslint-config-standard-react": "^9.2.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-standard": "^4.0.1",
     "parcel-bundler": "^1.12.4",
-    "prettier": "^2.0.1",
     "sass": "^1.26.3"
   }
 }

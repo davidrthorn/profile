@@ -1,14 +1,9 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
-const App = ({ name }) => {
+const App = () => {
   return (
-    <h1>Hello {name}</h1>
+    <h1>This is the {process.env.ENV} build</h1>
   )
-}
-
-App.propTypes = {
-  name: PropTypes.string
 }
 
 export default App
