@@ -1,7 +1,7 @@
 # System junk
 .vscode
-.cache
 
 # Node stuff
+.cache
 node_modules
 dist
